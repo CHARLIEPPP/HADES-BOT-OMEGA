@@ -9,9 +9,7 @@ import moment from 'moment-timezone';
 
 global.owner = [
   ['5212412377467', 'CREADOR', true],
-  ['5212411233838', 'CREADOR', true],
-  ['5212411719888', 'CREADOR', true],
-  ['5212414147874', 'CREADOR', true]
+
   
 ];
 
