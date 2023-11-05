@@ -1,7 +1,7 @@
 {
-  "name": "HADES-BOT-MD",
+  "name": "Charlie-Bot",
   "version": "1.0.0",
-  "description": "subscribe to the HADES-BOT channel",
+  "description": "Sigueme en ig: maquinadefuego_gg",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/OFC-YOVANI/HADES-BOT-OMEGA",
   "author": {
-    "name": "OFC-YOVANI"
+    "name": "Charlie"
   },
   "repository": {
     "type": "git",
