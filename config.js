@@ -9,8 +9,6 @@ import moment from 'moment-timezone';
 
 global.owner = [
   ['5219516124971', 'CREADOR', true],
-
-  
 ];
 
 global.suittag = ['5219516124971'];
