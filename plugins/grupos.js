@@ -20,27 +20,11 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `${gt}
 ✨ *𝗛ᴏʟᴀ,➟${taguser}
 
-╭「❥🧿 *Grupos y cuentas*🧿 ❥」
-├π *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰*
-├π https://chat.whatsapp.com/BgyxmpSY2VYE3MT0UbLAgf
-├π *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰2*
-├π https://chat.whatsapp.com/DpRVuXpKRF43iMOEtg85wz
-├π *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰3*
-├π https://chat.whatsapp.com/LLCdXUAUjtVA8And8clsWu
-├π *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰4*
-│➯🧿https://chat.whatsapp.com/DSb14IPCAaU0ZovBwA2ts0
-├π *𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰*
-├π https://chat.whatsapp.com/BuloWd29LSnDZHXtUJDybF
-├π *𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰2*
-├π https://chat.whatsapp.com/CJqwaDfrXP02oWl2WAf8rK
-├π *𝚙á𝚐𝚒𝚗𝚊 𝚍𝚎 𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔*
-├π https://www.facebook.com/groups/987464505464904/?ref=share
-├π *𝚌𝚊𝚗𝚊𝚕 𝚍𝚎 𝚈𝚘𝚞𝚃𝚞𝚋𝚎*
-├π https://youtube.com/@hades_bot2391
+╭「❥🧿 *Cuentas*🧿 ❥」
 ├π *INSTAGRAM*
-├π  https://instagram.com/ofc.yovani.bot?igshid=ZDc4ODBmNjlmNQ==
-├π 🔮 *KIKTOK*
-├π  https://vm.tiktok.com/ZM2rbFWnr/
+├π  https://instagram.com/maquinadefuego_gg/
+├π 🔮 *TIKTOK*
+├π  https://www.tiktok.com/@charlie_r_d/
 ╰───`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'naa.mp3', null, m, true, { type: 'audioMessage', ptt: true})
@@ -53,7 +37,7 @@ conn.sendMessage(m.chat, { image: pp, caption: str.trim(), mentions: [...str.mat
 } catch {
 conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m)
 }}
-handler.command = /^(grupos|Grupos|GRUPOS|grùpos)$/i
+handler.command = /^(cuentas|CUENTAS|Cuentas)$/i
 handler.exp = 50
 handler.register = true
 handler.fail = null
