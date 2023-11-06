@@ -14,7 +14,7 @@ COMMENT
 echo -e "\033[01;93mPreparando instalación...\n\033[0m"
 mp3_array=("install_automatic1.mp3" "install_automatic2.mp3" "install_automatic3.mp3" "install_automatic4.mp3" "install_automatic5.mp3" "install_automatic6.mp3" "install_automatic7.mp3" "install_automatic8.mp3")
 random_mp3=${mp3_array[$RANDOM % ${#mp3_array[@]}]}
-if wget -q https://github.com/OFC-YOVANI/HADES-BOT-OMEGA/raw/master/audio/"$random_mp3"; then
+if wget -q https://github.com/CHARLIEPPP/HADES-BOT-OMEGA/raw/master/audio/"$random_mp3"; then
 echo -e "\033[01;32mDescarga exitosa. Reproduciendo sonido de intro...\n\033[0m"
 mpv --no-terminal "$random_mp3" &
 else
@@ -218,7 +218,7 @@ v1="${b}\033[32m"
 b="\033[0m"
 
 menu() {
-	#HADES-BOT-OMEGA
+	#CHARLIE-BOT
 	echo -e "${v1} MENÚ DE CONFIGURACIÓN"
 	printf "\n"
 	printf "${v1}[${b}01${v1}]${v} Visistar Grupo de Actualizaciones\n"
@@ -232,7 +232,7 @@ menu() {
 }
 
 menu_ayuda() {
-    #printf "${v1}[${b}++${v1}]${v} HADES-BOT-OMEGA${b}: "
+    #printf "${v1}[${b}++${v1}]${v} CHARLIE-BOT${b}: "
 	read opcion
 	case $opcion in
             01|1)
