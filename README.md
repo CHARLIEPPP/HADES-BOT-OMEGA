@@ -1,4 +1,4 @@
-# `🐢𝖈𝖍𝖆𝖗𝖑𝖎𝖊-𝖇𝖔𝖙🐢`
+# `🍂 𝖈𝖍𝖆𝖗𝖑𝖎𝖊-𝖇𝖔𝖙 🍂`
 
 ### `🖍 LETRA DEL BOT 🖍`
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
@@ -7,8 +7,8 @@
 - PAGINA [Aqui](https://beta.openai.com/playground)
 
 ### `—◉ ⚙️ AJUSTES ⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/OFC-YOVANI/HADES-BOT-OMEGA/fork)
-- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/OFC-YOVANI/HADES-BOT-OMEGA/blob/main/config.js)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/CHARLIEPPP/HADES-BOT-OMEGA/fork)
+- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/CHARLIEPPP/HADES-BOT-OMEGA/blob/main/config.js)
 
 ### `—◉ 👾 ACTIVAR EN TERMUX 👾
 PRIMERA OPCIÓN `
@@ -22,7 +22,7 @@ pkg update -y && pkg upgrade -y && pkg install -y bash && pkg install -y wget &&
 ```
 
 ```bash
-wget -O - https://raw.githubusercontent.com/OFC-YOVANI/HADES-BOT-OMEGA/master/install.sh | bash
+wget -O - https://raw.githubusercontent.com/CHARLIEPPP/HADES-BOT-OMEGA/master/install.sh | bash
 ```
 
 
@@ -42,7 +42,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git && cd HADES-BOT-OMEGA
+git clone https://github.com/CHARLIEPPP/HADES-BOT-OMEGA.git && cd HADES-BOT-OMEGA
 ```
 
 ```bash
